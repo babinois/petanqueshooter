@@ -1,13 +1,13 @@
 function game() {
   var canvas = document.getElementById("myCanvas");
   var ctx = canvas.getContext("2d");
-  var ballRadius = 5;
-  var x = canvas.width / 10;
-  var y = canvas.height - 30;
-  var dx = 2;
-  var dy = -2;
+  var ballRadius = 2;
+  var x = canvas.width / 2;
+  var y = canvas.height - 10;
+  var dx = 0;
+  var dy = 2;
   var paddleHeight = 10;
-  var paddleWidth = 75;
+  var paddleWidth = 50;
   var paddleX = (canvas.width - paddleWidth) / 2;
   var rightPressed = false;
   var leftPressed = false;
@@ -55,10 +55,6 @@ function game() {
     }
   }
 
-  function missile() {
-    if (upPressed) {
-    }
-  }
   function mouseMoveHandler(e) {
     var relativeX = e.clientX - canvas.offsetLeft;
     if (relativeX > 0 && relativeX < canvas.width) {
