@@ -2,4 +2,3 @@ A faire:
 
 Faire disparaitre la balle quand elle entre en contact avec une brick
 Faire bouger les bricks
-Faire en sorte que la brick parte lorsqu'on appuie sur "espace"
