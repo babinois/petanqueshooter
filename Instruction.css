@@ -1,0 +1,43 @@
+#clavier {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+p{
+    
+    text-align: center;
+    font-size: 25px;
+    
+}
+
+#jeux {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-shadow: 2px 2px 4px black;
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.button {
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+
+
+.button4 {background-color: #e7e7e7; color: black;} /* Gray */ 

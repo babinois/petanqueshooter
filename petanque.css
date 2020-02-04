@@ -1,0 +1,13 @@
+.button {
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+
+.button4 {background-color: #e7e7e7; color: black;} /* Gray */ 

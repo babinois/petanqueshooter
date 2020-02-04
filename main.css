@@ -1,0 +1,94 @@
+h1 {
+
+    text-shadow: 2px 2px 4px black;
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline;
+
+}
+p {
+    text-align: center;
+    font-size: 25px;
+}
+
+
+#midle{
+
+    
+    text-align: center;
+    
+    
+}
+
+.button {
+        border: none;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 24px;
+        margin: 4px 2px;
+        cursor: pointer;
+
+}
+
+
+.button4 {background-color: #e7e7e7; color: black;} /* Gray */ 
+
+#ChNiveau {
+
+    width: 500px;
+    height: 100px;
+    padding-top: 10px; /*permet le centrage vertical*/
+    text-align: center;
+    color: #000;
+    background: #444;
+    font-family: Arial,sans-serif;
+    font-size: 1.6em;
+    background: #444;
+    background: linear-gradient( #555, #2C2C2C);
+    border-radius: 4px;
+    text-shadow: 0px 1px 0px white;
+    text-shadow: 0px 1px 0px rgba( 255, 255, 255, 0.2);
+    box-shadow: 0 0 5px rgba( 0, 0, 0, 0.5),
+                0 -1px 0 rgba( 255, 255, 255, 0.4);
+
+}
+
+#Inst {
+    width: 500px;
+    height: 100px;
+    padding-top: 10px; /*permet le centrage vertical*/
+    text-align: center;
+    color: #000;
+    background: #444;
+    font-family: Arial,sans-serif;
+    font-size: 1.6em;
+    background: #444;
+    background: linear-gradient( #555, #2C2C2C);
+    border-radius: 4px;
+    text-shadow: 0px 1px 0px white;
+    text-shadow: 0px 1px 0px rgba( 255, 255, 255, 0.2);
+    box-shadow: 0 0 5px rgba( 0, 0, 0, 0.5),
+                0 -1px 0 rgba( 255, 255, 255, 0.4);
+
+}
+
+#Pres {
+    width: 500px;
+    height: 100px;
+    padding-top: 10px; /*permet le centrage vertical*/
+    text-align: center;
+    color: #000;
+    background: #444;
+    font-family: Arial,sans-serif;
+    font-size: 1.6em;
+    background: #444;
+    background: linear-gradient( #555, #2C2C2C);
+    border-radius: 4px;
+    text-shadow: 0px 1px 0px white;
+    text-shadow: 0px 1px 0px rgba( 255, 255, 255, 0.2);
+    box-shadow: 0 0 5px rgba( 0, 0, 0, 0.5),
+                0 -1px 0 rgba( 255, 255, 255, 0.4);
+
+}
