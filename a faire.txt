@@ -2,3 +2,4 @@ A faire:
 
 Faire disparaitre la balle quand elle entre en contact avec une brick
 Faire bouger les bricks
+Faire en sorte de pouvoir tirer de n'importe où 
