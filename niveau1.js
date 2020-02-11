@@ -21,6 +21,7 @@ function game() {
   var score = 0;
   var lives = 5;
 
+  /*on définit d'abord la positiond es bricks*/
   var bricks = [];
   for (var c = 0; c < brickColumnCount; c++) {
     bricks[c] = [];
@@ -29,7 +30,11 @@ function game() {
     }
   }
 
-  document.addEventListener("keydown", keyDownHandler, false);
+  document.addEventListener(
+    "keydown",
+    keyDownHandler,
+    false
+  ); /*Ces 3 commandes servent a detecter quand le jour presse une touche.*/
   document.addEventListener("keyup", keyUpHandler, false);
   document.addEventListener("mousemove", mouseMoveHandler, false);
 
@@ -54,13 +59,14 @@ function game() {
       console.log(upPressed);
     }
   }
-
+  /*Cette zone sert pour le décplacement de la souris*/
   function mouseMoveHandler(e) {
     var relativeX = e.clientX - canvas.offsetLeft;
     if (relativeX > 0 && relativeX < canvas.width) {
       paddleX = relativeX - paddleWidth / 2;
     }
   }
+  /*Nous avons ajouté les collisions pour que la balle ne traverse pas les bricks*/
   function collisionDetection() {
     for (var c = 0; c < brickColumnCount; c++) {
       for (var r = 0; r < brickRowCount; r++) {
@@ -84,7 +90,7 @@ function game() {
       }
     }
   }
-
+  /*On donne les fonctions de la balle*/
   function drawBall() {
     ctx.beginPath();
     ctx.arc(x, y, ballRadius, 0, Math.PI * 2);
@@ -116,11 +122,13 @@ function game() {
       }
     }
   }
+  /*Ici l'ajout du système de score*/
   function drawScore() {
     ctx.font = "16px Arial";
     ctx.fillStyle = "#0095DD";
     ctx.fillText("Score: " + score, 8, 20);
   }
+  /*Le systeme de vie*/
   function drawLives() {
     ctx.font = "16px Arial";
     ctx.fillStyle = "#0095DD";
