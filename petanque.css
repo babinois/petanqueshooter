@@ -1,4 +1,4 @@
-.button {
+.button {  /* avec ceci nous avons la forme des boutons*/ 
     display: inline-block;
     padding: 5px 15px;
     font-size: 24px;
@@ -14,9 +14,9 @@
 }
 
 
-.button:hover {background-color: #FA3A2A}
+.button:hover {background-color: #FA3A2A}  /*Permet d'avoir la couleur au moment ou la souris passe sur le bouton*/ 
 
-.button:active {
+.button:active { /*permet d'avoir la couleur du bouton qui est activé après le clic de la souris*/ 
   background-color: #FA3A2A;
   box-shadow: 0 5px #666;
   transform: translateY(4px);

@@ -1,4 +1,4 @@
-h1 {
+h1 {        /*Toutes les h1 seront modifer avec le CSS avec un shadow/alignement des text au centre/italic et une police */ 
 
     text-shadow: 2px 2px 4px black;
     text-align: center;
@@ -6,13 +6,13 @@ h1 {
     text-decoration: underline;
 
 }
-p {
+p {      /*ce CSS permet d'aligner toutes les balises p avec une taille de 25px*/ 
     text-align: center;
     font-size: 25px;
 }
 
 
-#midle{
+#midle{  /*Permet d'interargir avec la div midle pour centré les boutons*/ 
 
     
     text-align: center;
@@ -20,7 +20,7 @@ p {
     
 }
 
-.button {
+.button {        /* avec ceci nous avons la forme des boutons*/ 
     display: inline-block;
     padding: 15px 25px;
     font-size: 24px;
@@ -36,69 +36,11 @@ p {
 }
 
 
-.button:hover {background-color: #FA3A2A}
+.button:hover {background-color: #FA3A2A} /*Permet d'avoir la couleur au moment ou la souris passe sur le bouton*/ 
 
-.button:active {
+.button:active { /*permet d'avoir la couleur du bouton qui est activé après le clic de la souris*/ 
   background-color: #FA3A2A;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
-
-}
-
-#ChNiveau {
-
-    width: 500px;
-    height: 100px;
-    padding-top: 10px; /*permet le centrage vertical*/
-    text-align: center;
-    color: #000;
-    background: #444;
-    font-family: Arial,sans-serif;
-    font-size: 1.6em;
-    background: #444;
-    background: linear-gradient( #555, #2C2C2C);
-    border-radius: 4px;
-    text-shadow: 0px 1px 0px white;
-    text-shadow: 0px 1px 0px rgba( 255, 255, 255, 0.2);
-    box-shadow: 0 0 5px rgba( 0, 0, 0, 0.5),
-                0 -1px 0 rgba( 255, 255, 255, 0.4);
-
-}
-
-#Inst {
-    width: 500px;
-    height: 100px;
-    padding-top: 10px; /*permet le centrage vertical*/
-    text-align: center;
-    color: #000;
-    background: #444;
-    font-family: Arial,sans-serif;
-    font-size: 1.6em;
-    background: #444;
-    background: linear-gradient( #555, #2C2C2C);
-    border-radius: 4px;
-    text-shadow: 0px 1px 0px white;
-    text-shadow: 0px 1px 0px rgba( 255, 255, 255, 0.2);
-    box-shadow: 0 0 5px rgba( 0, 0, 0, 0.5),
-                0 -1px 0 rgba( 255, 255, 255, 0.4);
-
-}
-
-#Pres {
-    width: 500px;
-    height: 100px;
-    padding-top: 10px; /*permet le centrage vertical*/
-    text-align: center;
-    color: #000;
-    background: #444;
-    font-family: Arial,sans-serif;
-    font-size: 1.6em;
-    background: #444;
-    background: linear-gradient( #555, #2C2C2C);
-    border-radius: 4px;
-    text-shadow: 0px 1px 0px white;
-    text-shadow: 0px 1px 0px rgba( 255, 255, 255, 0.2);
-    box-shadow: 0 0 5px rgba( 0, 0, 0, 0.5),
-                0 -1px 0 rgba( 255, 255, 255, 0.4);
 
 }
